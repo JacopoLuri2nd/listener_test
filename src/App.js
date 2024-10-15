@@ -30,7 +30,7 @@ const App = () => {
       window.removeEventListener("keydown", handleKeyPress);
     };
   }, []);
-  return <div className="App">KEY 4 IS: {keyState}</div>;
+  return <div className="App">KEY ENTER IS: {keyState}</div>;
 };
 
 export default App;
